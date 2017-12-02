@@ -22,4 +22,6 @@
 
 -(CalculateManager *(^)(float value))divis;
 
+- (instancetype)manager:(double(^)(double))block;
+
 @end

@@ -47,4 +47,9 @@
     };
 }
 
+- (instancetype)manager:(double(^)(double))block {
+    _result = block(_result);
+    return self;
+}
+
 @end
